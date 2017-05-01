@@ -11,5 +11,8 @@ module.exports = {
     classPrefix: false,
     idPrefix: false,
     warnTags: [],
-    warnTagAttrs: []
+    warnTagAttrs: [],
+    transformToRequire: {
+        image: 'xlink:href'
+    }
 };
